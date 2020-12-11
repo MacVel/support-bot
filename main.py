@@ -9,7 +9,7 @@ load_dotenv()
 TOKEN = os.getenv('TELEGRAM_TOKEN')
 PROJECT_ID=os.getenv('PROJECT_ID')
 GOOGLE_APPLICATION_CREDENTIALS=os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
-
+CHAT_ID = os.getenv('CHAT_ID')
 logger = logging.getLogger(__name__)
 
 def start(bot,update):
