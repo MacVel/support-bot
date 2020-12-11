@@ -1,5 +1,6 @@
 import dialogflow_v2 as dialogflow
 from dotenv import load_dotenv
+import os
 load_dotenv()
 GOOGLE_APPLICATION_CREDENTIALS=os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
 
