@@ -23,6 +23,6 @@ def configure_logger(logger_name,
 
     if bot_token and chat_id:
         tg_logs_handler = TelegramLogsHandler(bot_token, chat_id)
-        log_format = logging.Formatter('%(asctime)s -  %(message)s'')
+        log_format = logging.Formatter('%(asctime)s -  %(message)s')
         tg_logs_handler.setFormatter(log_format)
         logger.addHandler(tg_logs_handler)
