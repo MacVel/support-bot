@@ -4,6 +4,7 @@ import os
 import logging
 from log import configure_logger
 from dotenv import load_dotenv
+from dialog_flow_connect import detect_intent_texts
 load_dotenv()
 TOKEN = os.getenv('TELEGRAM_TOKEN')
 PROJECT_ID=os.getenv('PROJECT_ID')
